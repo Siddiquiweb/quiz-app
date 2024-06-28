@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/gif"
+        href="https://png.pngtree.com/png-clipart/20230804/original/pngtree-quiz-icon-quiz-www-round-vector-picture-image_9569634.png" />
+
+    <title>Html Quiz</title>
+
+    <link rel="stylesheet" href="/main/html/index.html">
+
+
+
+<body>
+
+    <div style="border: 5px solid black;">
+        <div class="main">
+
+            <h2>Your Quiz Timer Wil be starting </h2>
+            <div id="js-timer">
+
+
+                <div id="timer">
+                    00:00
+                </div>
+            </div>
+            <button onclick="pause()">Stop</button>
+
+
+
+
+            <div id="box">
+                <h2 id="quesbox">The Quize App</h2>
+                <div class="row">
+                    <input class="options" id="option1" type="radio" value="a" name="option" />
+
+                    <label for="option1"> option 1 </label>
+
+                </div>
+                <div class="row">
+
+
+
+                    <input class="options" id="option2" type="radio" value="b" name="option" />
+                    <label for="option2"> option 2</label>
+                </div>
+                <div class="row">
+
+
+                    <input class="options" id="option3" type="radio" value="c" name="option" />
+                    <label for="optio3"> option 3</label>
+                </div>
+                <div class="row">
+
+
+                    <input class="options" id="option4" type="radio" value="d" name="option" />
+                    <label for="option4"> option 4</label>
+                </div>
+                <button class="btn" onclick="submitQuiz()">
+                    Next
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/main/html/main.js"></script>
+</body>
+
+</html>

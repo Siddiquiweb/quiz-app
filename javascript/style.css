@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    background-color: #48dbfb;
+    font-family: 'roboto', 'sans-serif';
+
+    background-image: url(https://i.pinimg.com/564x/02/23/58/022358a8540a8269f29136db61cac2b0.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+
+}
+
+#box {
+    width: 40%;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px 12px black;
+
+}
+
+#box:hover {
+    color: dark black;
+    border: 1px solid#04AA6D;
+
+}
+
+.row {
+    /* padding-bottom: 100px; */
+    width: 100%;
+    margin: 2rem;
+    margin-left: 0;
+    border: 1px solid gray;
+    border-radius: 2rem;
+}
+
+.row :hover {
+    color: #04AA6D;
+    cursor: pointer;
+
+
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: #04AA6D;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#js-timer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+button {
+
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    padding-bottom: 20px;
+
+}
+
+button:hover {
+    display: flex;
+    color: red;
+    background-color: black;
+}
+
+.img {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+
+        background-color: black;
+        background-repeat: no-repeat;
+        position: block;
+        background-size: cover;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    #box {
+        width: 95%;
+        padding: 40px;
+        background-color: white;
+        box-shadow: 0px 0px 5px gray;
+        border-radius: 5px;
+    }
+
+    .row {
+        width: 100%;
+        margin: 2rem;
+        margin-left: 0;
+        border: 2px solid gray;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+        background-color: #48dbfb;
+    }
+
+    element.style {
+        text-align: center;
+        justify-content: center;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    element.style {
+        text-align: center;
+        font-size: 31px;
+        padding-top: 44px;
+    }
+
+    .row :hover {
+        cursor: pointer;
+
+    }
+
+    .btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: #48dbfb;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    h2 {
+        padding: 20px;
+    }
+
+    #js-timer {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        border: 2px solid black;
+    }
+
+    button {
+
+        display: flex;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        display: flex;
+        color: red;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+
+        background-color: black;
+        font-family: 'roboto', 'sans-serif';
+
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15px;
+    }
+
+
+    element.style {
+        width: 282px;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    #box {
+        width: 95%;
+        padding: 40px;
+        color: black;
+        background-color: white;
+        box-shadow: 0px 0px 5px gray;
+        border-radius: 5px;
+    }
+
+    .row {
+        width: 100%;
+        margin: 2rem;
+        margin-left: 0;
+        color: black;
+    }
+
+    .row:hover {
+        color: #04AA6D;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+        background-color: #fb4848;
+    }
+
+    element.style {
+        text-align: center;
+        justify-content: center;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    element.style {
+        text-align: center;
+        font-size: 31px;
+        padding-top: 44px;
+    }
+
+    .row :hover {
+        cursor: pointer;
+
+    }
+
+    .btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: black;
+        cursor: pointer;
+        border: 2px solid black;
+    }
+
+    .btn:hover {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        background-color: #04AA6D;
+
+
+    }
+
+    h2 {
+        padding: 20px;
+    }
+
+    #js-timer {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        border: 2px solid black;
+    }
+
+    button {
+
+        display: flex;
+        width: 200px;
+        color: black;
+        background-color: #04AA6D;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+        border-radius: 20px;
+
+    }
+
+    button:hover {
+        display: flex;
+        color: black;
+        background-color: #fb4848;
+    }
+}
